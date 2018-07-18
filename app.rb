@@ -5,10 +5,10 @@ class App < Sinatra::Base
     @name = params[:name]
     @coach = params[:coach]
     @pg = params[:pg]
-    @shoot = params[:sg]
+    @sg = params[:sg]
     @sf = params[:sf]
     @pf = params[:pf]
-    @center = params[:c]
+    @c = params[:c]
     erb :team
   end
 
