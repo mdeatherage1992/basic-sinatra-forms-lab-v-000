@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
 class App < Sinatra::Base
-  get '/team' do
+  post '/team' do
     @name = params[:name]
     @coach = params[:coach]
     @pg = params[:pg]
